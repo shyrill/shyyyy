@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SHYRILL B</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+    <style>
+        
+        .popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 9999;
+        }
+
+        .popup-content {
+            position: absulute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        
+        .open-btn {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="images\BG.jpg" class="shy"></a>
+        </header>
+    </section>
+
+    <h1>WELCOME TO FAMOUS FILIPINO DISHES WEBSITE</h1>
+
+    
+    <button class="open-btn" data-popup="popup1">HOME</button>
+
+    
+    <button class="open-btn" data-popup="popup2">ABOUT</button>
+
+    
+    <button class="open-btn" data-popup="popup3">PRODUCTS</button>
+
+    
+    <button class="open-btn" data-popup="popup4">CONTACT</button>
+
+    
+    <button class="open-btn" data-popup="popup5">GALLERY</button>
+
+    
+    <div class="popup" id="popup1">
+      <div class="popup-content">
+          <h2 class="popup-title">HOMEPAGE</h2>
+          <div class="popup-body">
+              <img src="C:\Users\Administrator\Documents\shy\images\Asian-Cuisine-10-Types-of-Filipino-Dishes-that-You-Should-Try.jpg" alt="Popup 1 Image" class="popup-image">
+              <p class="popup-text">Welcome to our Filipino Dishes-Heres the introduction:
+
+                The Philippines is an exotic archipelago made up of several thousand islands, each laden with emerald rice fields, smoldering volcanoes, and ethereal tropical beaches. Filipinos are laid back, smiley, and full of charm.
+                With diving, hiking and outdoor adventures galore, you’re going to work up an appetite after exploring all the natural beauty of these islands. So, what can you eat? Filipino food is hearty, sometimes sweet and sometimes sour, but definitely delicious.
+                While Filipino food isn’t considered the most popular Asian dish, I can assure you it’s more than just Jollibee’s fried chicken. The Philippines was once ruled by the Spanish for some 350 years, leaving an imprint on the culture, religion, and most importantly, their gastronomy.
+                So you can expect quite a variety when it comes to their flavor palette. If you’re traveling to the Philippines and wondering what food to try, these are all the best dishes to eat in the Philippines.
+
+                Come on in and try to begin!</p>
+          </div>
+          <button class="close-btn">Close</button>
+      </div>
+  </div>
+  
+    <div class="popup" id="popup2">
+        <div class="popup-content">
+            <h2 class="popup-title">ABOUTPAGE</h2>
+            <div class="popup-body">
+                <img src="C:\Users\Administrator\Documents\shy\images\6dc8e232f1af4aa389770f2d69e0ba71.jpg" alt="Popup 1 Image" class="popup-image">
+            <p class="popup-text">Welcome to our Filipino Dishes-inspired About page! Here is the infos about the Filipino foods.
+
+                Filipino food may not be as famous as that of its Thai and Vietnamese neighbors. But with more than 7,000 islands and a colorful history, this archipelago has some delicious dishes of its own.
+                Blessed with an abundance of seafood, tropical fruits and creative cooks, there’s more to Filipino food than the mind-boggling balut (duck embryo).
+
+                You just have to know where to find them and how to eat them.
+
+
+                Thank you for being a part of our Filipino Dishes-inspired journey. We are encourage you to explore the good taste of our delicious filipino dishes.</p>
+            </div>
+        <button class="close-btn">Close</button>
+    </div>
+  </div>
+
+    <div class="popup" id="popup3">
+        <div class="popup-content">
+            <h2 class="popup-title">PRODUCTS</h2>
+            <div class="popup-body">
+                <img src="C:\Users\Administrator\Documents\shy\images\th (2).jpg" alt="Popup 1 Image" class="popup-image">
+            <p class="popup-text">Introducing our Filipino Dishes- Try it and have fun:
+
+                1. Adobo:
+                No list of Filipino food would be complete without adobo.
+                A ubiquitous dish in every household in the Philippines, its Mexican in origin.
+                
+                2.Lechon
+                The lechon is the most invited party guest in the Philippines.
+                
+                The entire pig is spit-roasted over coals, with the crisp, golden-brown skin served with liver sauce, the most coveted part.
+                
+                In Cebu, the stomach of the pig is stuffed with star anise, pepper, spring onions, laurel leaves and lemongrass resulting in an extremely tasty lechon, which needs no sauce.
+                
+                In Manila, folks can get their piggy from Elars Lechon, while in Cebu, the best is CnT Lechon.
+
+                3. Sisig:
+                Nothing goes to waste in Filipino food.
+                In the culinary capital of Pampanga, they turn the porks cheeks, head and liver into a sizzling dish called Sisig.
+                The crunchy and chewy texture of this appetizer is a perfect match for a cold beer.
+                Serve with hot sauce and Knorr seasoning to suit the preference of you and your buddies.
+                Credit goes to Aling Lucing, who invented this dish at a humble stall along the train railways in Angeles City, Pampanga.
+
+                While Sisig can be found in many restaurants, try the original version at Aling Lucing Sisig.
+
+                4. Crispy pata:
+                Not for the easily spooked, this pork knuckle is simmered, drained and deep fried until crisp.
+
+                The meat is tender and juicy inside, with a crisp, crackling exterior.
+                
+                Served with vinegar, soy sauce and chili.
+
+                5. Chicken inasal:
+                Yes, it’s grilled chicken.
+                But in Bacolod, this is no ordinary grilled chicken.The meat is marinated in lemongrass, calamansi, salt, pepper and garlic and brushed with achuete (annatto seeds) oil.
+
+                Every part of the chicken is grilled here from the paa (drumstick), pecho (breast), baticulon (gizzard), atay (liver), pakpak (wings) and corazon (heart).
+                It must be eaten with a generous serving of garlic rice, with some of the orange oil used to marinade the chicken poured over the rice.
+                You can go chicken crazy at Manokan Country where there is a row of authentic Inasal restaurants.
+
+                Don't miss out on the opportunity to taste these dishes-Browse our websites, choose your favorites, and let these dishes make your day great. Start your day a great day!</p>
+        </div>
+        <button class="close-btn">Close</button>
+    </div>
+   </div>
+
+    <div class="popup" id="popup4">
+        <div class="popup-content">
+            <h2 class="popup-title">CONTACT</h2>
+            <div class="popup-body">
+                <img src="images\back.jpg" alt="Popup 1 Image" class="popup-image">
+            <p class="popup-text">Gmail:
+                For inquiries, feedback, or any other communication, you can reach us via email at <mark>[shyrillbalido19@gmail.com]</mark>. Our dedicated team enthusiasts will respond to your queries as quickly as possible.
+                
+                Facebook:
+                Connect with us on Facebook at <mark>[https://www.facebook.com/shyrillmae.balido.9]</mark>. Like and follow our page to stay updated on the latest news, upcoming events, and exclusive content. Engage with our community, join discussions, and share your thoughts about the foods.. Our Facebook page is a great platform to connect with the customers just stay updated.
+                
+                Contact Number:
+                If you prefer to speak with us directly, you can reach us at <mark>[09060071478]</mark>. Our friendly team is available during business hours</p>
+        </div>
+        <button class="close-btn">Close</button>
+    </div>
+   </div>
+
+    <div class="popup" id="popup5">
+        <div class="popup-content">
+            <h2 class="popup-title">GALLERY</h2>
+            <div class="popup-body">
+                <img src="images\bg (2).jpg" alt="Popup 1 Image" class="popup-image">
+                <img src="images\BG.jpg" alt="Popup 2 Image" class="popup-image">
+                <img src="images\max.jpg" alt="Popup 3 Image" class="popup-image">
+                <img src="images\PIC.jpg" alt="Popup 4 Image" class="popup-image">
+                <img src="images\shy.jpg" alt="Popup 5 Image" class="popup-image">
+            <p class="popup-text">FILIPINO DISHES.</p>
+        </div>
+        <button class="close-btn">Close</button>
+    </div>
+ </div>
+
+ <div class="icons">
+    Facebook:
+    <a href="https://www.facebook.com/shyrillmae.balido.9"><ion-icon name="logo-facebook" role="img" class="md hydrated" aria-label="logo facebook"></ion-icon></a>
+    <a href=https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2Fshyrillmiii%3Figshid%3DZDc4ODBmNjlmNQ%253D%253D%26fbclid%3DIwAR2cU1sgR-c0SHPqLri8ysQiNpeNfbopBtEQ6uto-QQt3VZRm3uEZ55YKYo&h=AT0WpvLiHOJFz1UovvDjJAvDZ3Aw3Nq_1SGqxk6e96LU9o-ng9V7qr-oldoe33HWgQcXlAkMfhWIRZcFjAnjLjxUGZl_2kckXfX5xh4CYMHvwJeTMawKVhcVoW3mRWxU0ceqixhnmFV1bp1cTTVtoQ""><ion-icon name="logo-instagram" role="img" class="md hydrated" aria-label="logo instagram"></ion-icon></a>
+    <a href=" https://www.tiktok.com/@lazy_one_?_t=8cqqJgrbsR8&_r=1"><ion-icon name="logo-tiktok" role="img" class="md hydrated" aria-label="logo tiktok"></ion-icon></a>
+ </div>
+
+ <script src=" https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+    <script>
+    
+        var openBtns = document.querySelectorAll('.open-btn');
+        var closeBtns = document.querySelectorAll('.close-btn');
+        var popups = document.querySelectorAll('.popup');
+
+        
+        openBtns.forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                var popupId = btn.getAttribute('data-popup');
+                var popup = document.getElementById(popupId);
+                popup.style.display = 'block';
+            });
+        });
+
+        
+        closeBtns.forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                var popup = btn.parentNode.parentNode;
+                popup.style.display = 'none';
+            });
+        });
+    </script>
+</body>
+</html>
